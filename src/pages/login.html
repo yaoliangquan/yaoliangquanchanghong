@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<script src="../lib/jquery.min.js"></script>
+
+<body>
+    <!-- 登录top -->
+    <div id="top">
+        <div class="top-con">
+            <h1>
+                <img src="../images/denglu_02.jpg" alt="">               
+            </h1>
+            <span>|</span>
+            <span>登录</span>
+        </div>
+    </div>
+    
+    <!-- 登录框box -->
+    <div id="loginBox">
+        <div class="switch">
+            <div class="switch1 ">账号密码登录</div>
+            <div class="switch2 no_click">手机短信登录</div>
+        </div>
+
+       <div>
+                <!-- 账号密码登录 -->
+            <form>
+                <input type="text" placeholder="手机/用户名/邮箱" name="phone"><br>
+                <input type="password" placeholder="密码" name="password"><br>
+                <input type="submit" value="登录"><br>
+                <a href="#">注册 |</a> <a href="#">忘记密码</a>
+                <fieldset>
+                    <legend  align = "center">其他登录方式</legend>
+                    <a href="#"><img src="../images/denglu/pay.png" alt=""></a>
+                    <a href="#"><img src="../images/denglu/qq.png" alt=""></a>
+                    <a href="#"><img src="../images/denglu/weixin.png" alt=""></a>
+                    <a href="#"><img src="../images/denglu/weibo.png" alt=""></a>
+                </fieldset>
+            </form>
+
+            <!-- 手机短信登录 -->
+            <form action="#" class="form2 display_form">
+            <input type="text" placeholder="手机号码"><br>
+            <div class="box">
+                <input type="password" placeholder="短信验证码"><button class="yzm_btn">发送验证码</button>
+            </div>
+            <input type="button" value="登录"><br>
+            <a href="#">注册 |</a> <a href="#">忘记密码</a>
+            <fieldset>
+                <legend  align = "center">其他登录方式</legend>
+                <a href="#"><img src="../images/denglu/pay.png" alt=""></a>
+                <a href="#"><img src="../images/denglu/qq.png" alt=""></a>
+                <a href="#"><img src="../images/denglu/weixin.png" alt=""></a>
+                <a href="#"><img src="../images/denglu/weibo.png" alt=""></a>
+            </fieldset>
+            </form>
+       </div>
+    </div>
+    
+</body>
+</html>
+<script src="../js/login.js"></script>
